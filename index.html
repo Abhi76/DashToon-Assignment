@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="app.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TV Shows Search</title>
+  </head>
+  <body>
+    <section class="search-section">
+      <h1>COMIC PANEL</h1>
+      <form id="searchForm" class="search-form" action="#">
+        <div class="grid-container">
+          <!-- Input fields placed inside a grid container for better layout -->
+          <input
+            type="text"
+            id="q1"
+            placeholder="Panel 1"
+            class="input-field"
+          />
+          <input
+            type="text"
+            id="q2"
+            placeholder="Panel 2"
+            class="input-field"
+          />
+          <input
+            type="text"
+            id="q3"
+            placeholder="Panel 3"
+            class="input-field"
+          />
+          <input
+            type="text"
+            id="q4"
+            placeholder="Panel 4"
+            class="input-field"
+          />
+          <input
+            type="text"
+            id="q5"
+            placeholder="Panel 5"
+            class="input-field"
+          />
+          <input
+            type="text"
+            id="q6"
+            placeholder="Panel 6"
+            class="input-field"
+          />
+          <input
+            type="text"
+            id="q7"
+            placeholder="Panel 7"
+            class="input-field"
+          />
+          <input
+            type="text"
+            id="q8"
+            placeholder="Panel 8"
+            class="input-field"
+          />
+          <input
+            type="text"
+            id="q9"
+            placeholder="Panel 9"
+            class="input-field"
+          />
+          <input
+            type="text"
+            id="q10"
+            placeholder="Panel 10"
+            class="input-field"
+          />
+        </div>
+        <button type="submit" id="searchButton" class="search-button">
+          Generate
+        </button>
+      </form>
+    </section>
+    <section class="results-section">
+      <div id="results" class="results-container"></div>
+      <p id="loadingText" class="loading-text">Loading...</p>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
